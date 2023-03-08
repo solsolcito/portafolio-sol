@@ -3,7 +3,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: #ead5e6;
+    background-color: #f1ceeb;
     cursor: pointer;
     font-family: 'Raleway';
     margin: 0;
@@ -55,7 +55,9 @@ section.menu {
     align-content: flex-end;
     height: 10vh;
 }
-
+#solimagen {
+    width: 50px;
+}
 section header {
     display: flex;
     align-items: center;
@@ -117,7 +119,8 @@ section.title img.profile {
 /*Sessão About*/
 
 section.about {
-    background-color: #EAF2FD;
+    background-color: #e3f7f2;
+    border-radius: 50px;
 }
 
 
@@ -138,6 +141,26 @@ section.skills div.skills-line {
     flex-wrap: wrap;
     width: 100vw;
     justify-content: space-between;
+}
+
+.fundacion {
+    color: blueviolet;
+}
+
+.githubimagen {
+    width: 55px;
+}
+
+.linkedinimagen {
+    width: 85px;
+}
+
+.instagramimagen {
+    width: 45px;
+}
+
+.curriculumimagen {
+    width: 60px;
 }
 
 section.skills div.skills-line div.skills-box {
